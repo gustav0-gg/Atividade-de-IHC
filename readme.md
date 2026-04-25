@@ -2,7 +2,7 @@
 
 Agente de IA para consulta de medicamentos em linguagem natural, desenvolvido com **DSPy** e **Phi-3.5-mini (3.8B)** rodando localmente via Ollama. O agente interpreta perguntas em português, gera queries SQL automaticamente e retorna respostas humanizadas.
 
-Projeto desenvolvido para a disciplina de **Modelo de Linguagem** — FATEC, 3º Semestre.
+Projeto desenvolvido para a disciplina de **Interação Humano Computador** — FATEC, ADS 3º Semestre.
 
 ---
 
@@ -59,7 +59,7 @@ Resposta em português
 **1. Clone o repositório**
 ```bash
 git clone https://github.com/gustav0-gg/Atividade-de-IHC
-cd seu-repositorio
+cd Atividade-de-IHC
 ```
 
 **2. Crie e ative o ambiente virtual**
