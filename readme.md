@@ -5,7 +5,7 @@
 <hr>
 <br>
      
-# Agente de Consulta de Medicamentos
+# 🤖 Agente de Consulta de Medicamentos
 
 Agente de IA para consulta de medicamentos em linguagem natural, desenvolvido com **DSPy** e **Phi-3.5-mini (3.8B)** rodando localmente via Ollama. O agente interpreta perguntas em português, gera queries SQL automaticamente e retorna respostas humanizadas — com interface via **CLI** ou **bot do Telegram**.
 
@@ -13,7 +13,7 @@ Projeto desenvolvido para a disciplina de **Interação Humano Computador** — 
 
 ---
 
-## Como funciona
+## 💻 Como funciona
 
 O usuário digita uma pergunta em português. O agente passa por um pipeline antes de responder:
 
@@ -35,7 +35,7 @@ Resposta em português
 
 ---
 
-## Tecnologias
+## 🖥️ Tecnologias
 
 | Tecnologia | Função |
 |---|---|
@@ -48,7 +48,7 @@ Resposta em português
 
 ---
 
-## Estrutura do projeto
+## 📁 Estrutura do projeto
 
 ```
 ├── agente.py               # Núcleo do agente (DSPy + SQLite + pós-processamento)
@@ -61,14 +61,7 @@ Resposta em português
 
 ---
 
-## Pré-requisitos
-
-- Python 3.10+
-- [Ollama](https://ollama.com/download) instalado
-
----
-
-## Instalação e execução (local)
+## ⚙️ Instalação e execução (local)
 
 **1. Clone o repositório**
 ```bash
@@ -114,7 +107,7 @@ python telegram_bot.py
 
 ---
 
-## Setup no Google Colab
+## ⚙️ Setup no Google Colab
 
 ### 1. Instalar dependências
 ```python
@@ -147,7 +140,7 @@ os.environ["TELEGRAM_TOKEN"] = "SEU_TOKEN_AQUI"
 
 ---
 
-## Bot do Telegram
+## 🤖 Bot do Telegram
 
 ### Como obter um token
 1. Abra o Telegram e fale com **@BotFather**
@@ -171,7 +164,7 @@ os.environ["TELEGRAM_TOKEN"] = "SEU_TOKEN_AQUI"
 ---
 
 
-## Banco de dados
+## 👨‍💻 Banco de dados
 
 O banco é criado automaticamente na primeira execução com 3 tabelas:
 
@@ -183,7 +176,7 @@ O banco é criado automaticamente na primeira execução com 3 tabelas:
 
 ---
 
-## Conceitos DSPy aplicados
+## 🖱️ Conceitos DSPy aplicados
 
 ### Signatures
 Definem o contrato de entrada e saída de cada etapa do pipeline. Foram criadas 4:
@@ -211,7 +204,7 @@ Modelos ≤4B frequentemente ignoram parte das instruções nos prompts. A solu�
 
 ---
 
-## Exemplos de uso
+## 🤖💊 Exemplos de uso
 
 ```
 💊 AGENTE DE CONSULTA DE MEDICAMENTOS
