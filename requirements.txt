@@ -1,0 +1,6 @@
+# ── Agente de Medicamentos — Dependências ─────────────────────
+# Instalar com:  pip install -r requirements.txt
+
+dspy-ai>=2.4.0
+requests>=2.31.0
+python-telegram-bot>=20.7
