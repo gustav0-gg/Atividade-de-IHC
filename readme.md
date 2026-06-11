@@ -1,4 +1,11 @@
-# 💊 Agente de Consulta de Medicamentos
+# 💊 **Bot MedInfo**
+<p align="center">
+       <img width="1024" height="559" alt="medinfo" src="https://github.com/user-attachments/assets/7e4298b4-4cfa-44ab-8979-c8d1968f0c1f" />
+<br>
+<hr>
+<br>
+     
+# Agente de Consulta de Medicamentos
 
 Agente de IA para consulta de medicamentos em linguagem natural, desenvolvido com **DSPy** e **Phi-3.5-mini (3.8B)** rodando localmente via Ollama. O agente interpreta perguntas em português, gera queries SQL automaticamente e retorna respostas humanizadas — com interface via **CLI** ou **bot do Telegram**.
 
@@ -163,22 +170,6 @@ os.environ["TELEGRAM_TOKEN"] = "SEU_TOKEN_AQUI"
 
 ---
 
-## Modelos ≤4B compatíveis
-
-| Modelo | Tamanho | Qualidade SQL |
-|---|---|---|
-| `phi3.5` | 3.8B | ⭐⭐⭐⭐ (recomendado) |
-| `qwen2.5:3b` | 3B | ⭐⭐⭐⭐ |
-| `llama3.2:3b` | 3B | ⭐⭐⭐ |
-| `gemma2:2b` | 2B | ⭐⭐ |
-
-Para trocar o modelo sem editar o código:
-```bash
-export OLLAMA_MODEL="qwen2.5:3b"
-python agente.py
-```
-
----
 
 ## Banco de dados
 
